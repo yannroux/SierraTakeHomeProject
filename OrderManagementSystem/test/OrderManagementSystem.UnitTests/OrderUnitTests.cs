@@ -9,7 +9,7 @@ namespace OrderManagementSystem.UnitTests
     public class OrderUnitTests
     {
         [Fact]
-        public async Task ShouldCreateOrder()
+        public void ShouldCreateOrder()
         {
             var dbContextOptions = new DbContextOptionsBuilder<OrderDbContext>()
                 .EnableDetailedErrors()
@@ -35,7 +35,7 @@ namespace OrderManagementSystem.UnitTests
                 Quantity = 10
             };
 
-            var result = await _orderRepository.InsertOrderAsync(newOrder);
+            var result =  _orderRepository.InsertOrderAsync(newOrder);
 
             Assert.NotNull(result);
             Assert.True(result.Value > 0);

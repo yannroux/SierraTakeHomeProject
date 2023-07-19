@@ -24,8 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OrderManagementSystem.Core\OrderManagementSystem.Core.csproj" />
-    <ProjectReference Include="..\OrderManagementSystem.DataAccess\OrderManagementSystem.DataAccess.csproj" />
+    <ProjectReference Include="..\..\src\OrderManagementSystem.DataAccess\OrderManagementSystem.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

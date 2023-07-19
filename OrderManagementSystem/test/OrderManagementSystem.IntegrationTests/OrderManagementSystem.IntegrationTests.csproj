@@ -27,6 +27,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\OrderManagementSystem.Core\OrderManagementSystem.Core.csproj" />
     <ProjectReference Include="..\..\OrderManagementSystem.WebApi\OrderManagementSystem.WebApi.csproj" />
+    <ProjectReference Include="..\..\src\OrderManagementSystem.Core\OrderManagementSystem.Core.csproj" />
+    <ProjectReference Include="..\..\src\OrderManagementSystem.WebApi\OrderManagementSystem.WebApi.csproj" />
   </ItemGroup>
 
 </Project>
